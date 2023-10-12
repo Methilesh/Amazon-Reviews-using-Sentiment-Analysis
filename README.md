@@ -1,6 +1,7 @@
 # Amazon Reviews Sentiment Analysis with Machine Learning
 
-![Amazon Reviews Sentiment Analysis](https://github.com/yourusername/Amazon-Reviews-using-Sentiment-Analysis/raw/main/screenshot.png)
+
+![Amazon](https://github.com/Methilesh/Amazon-Reviews-using-Sentiment-Analysis/assets/141352214/e2e80d39-d73f-44cd-ad45-89f83decbf3e)
 
 ## Introduction
 
