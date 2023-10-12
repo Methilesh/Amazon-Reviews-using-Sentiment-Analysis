@@ -1,19 +1,92 @@
-# Amazon-Reviews-using-Sentiment-Analysis
-Applying sentiment analysis on Amazon's product reviews.
+# Amazon Reviews Sentiment Analysis with Machine Learning
 
-**If you are looking to skim over the project without going into too much detail, you can easily access it through [_here_](https://nbviewer.jupyter.org/github/mick-zhang/Amazon-Reviews-using-Sentiment-Analysis/blob/master/Amazon%20Project%20Github.ipynb?flush_cache=true).**
+![Amazon Reviews Sentiment Analysis](https://github.com/yourusername/Amazon-Reviews-using-Sentiment-Analysis/raw/main/screenshot.png)
 
-<img src="Amazon.jpg">
+## Introduction
 
-Product reviews are becoming more important with the evolution of traditional brick and mortar retail stores to online shopping. Consumers are posting reviews directly on product pages in real time. With the vast amount of consumer reviews, this creates an opportunity to see how the market reacts to a specific product.
-We will be attempting to see if we can predict the sentiment of a product review using machine learning tools, particularly the Support Vector Machine.
+Welcome to the **Amazon Reviews Sentiment Analysis with Machine Learning** project! This repository contains code and resources for analyzing Amazon product reviews using machine learning techniques to determine sentiment polarity (positive, negative, or neutral). This project will help you understand the sentiment of Amazon reviews, which can be valuable for businesses and customers alike.
 
-The dataset I will be using is from www.kaggle.com.
+## Table of Contents
 
-I have also provided the direct link below if you wish to view the dataset I used to build my model:
+1. [Features](#features)
+2. [Requirements](#requirements)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Dataset](#dataset)
+6. [Model](#model)
+7. [Results](#results)
+8. [Contributing](#contributing)
+9. [License](#license)
 
-    https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products
+## Features
 
-This project was completed using Jupyter Notebook and Python with Pandas, NumPy, Matplotlib and Scikit-Learn.
+- **Sentiment Analysis**: This project uses machine learning to classify Amazon product reviews into three sentiment categories: positive, negative, and neutral.
 
-This was my first project using Python, and I look forward to contributing to the community!
+- **Data Preprocessing**: Preprocesses and cleans the data to ensure accurate sentiment analysis.
+
+- **Model Training**: Trains a sentiment analysis model using a machine learning algorithm (e.g., Natural Language Processing).
+
+- **Visualization**: Provides visualizations of sentiment analysis results, making it easier to understand the data.
+
+## Requirements
+
+To run this project, you will need the following:
+
+- Python 3.x
+- Jupyter Notebook (for running the notebooks)
+- Libraries: Pandas, NumPy, Matplotlib, Scikit-Learn, and NLTK
+
+## Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/Amazon-Reviews-using-Sentiment-Analysis.git
+   ```
+
+2. Install the required Python libraries if you haven't already. You can use `pip` for this:
+
+   ```bash
+   pip install pandas numpy matplotlib scikit-learn nltk
+   ```
+
+3. Make sure you have Jupyter Notebook installed:
+
+   ```bash
+   pip install jupyter
+   ```
+
+## Usage
+
+1. Open Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+2. Navigate to the project directory and open the `Amazon_Reviews_Sentiment_Analysis.ipynb` notebook.
+
+3. Follow the instructions in the notebook to perform sentiment analysis on Amazon reviews.
+
+## Dataset
+
+The dataset used for this project can be found in the `data` directory. You may use your own Amazon reviews dataset or acquire one from Amazon's product review data repository.
+
+## Model
+
+The sentiment analysis model used in this project is a [describe your model architecture or algorithm here].
+
+## Results
+
+Provide information about the results and accuracy achieved by the sentiment analysis model. You can also include sample visualizations or graphs if available.
+
+## Contributing
+
+If you'd like to contribute to this project, feel free to submit pull requests, report issues, or suggest enhancements. We welcome contributions from the open-source community!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
+
+
+
